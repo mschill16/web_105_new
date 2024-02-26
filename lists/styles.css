@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown
+}
+
+.container{
+    background-color:ivory
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+h1, h2, h3{
+    text-align:center;
+    color:green;
+}
+dt{
+    font-weight: bold;
+    color:rgb(87, 205, 173);
+}
+ dd{
+    color:blueviolet
+ }
