@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        .container{
+            width: 80%;
+            margin: 10px auto;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            height: 30px;
+        }
+        td{
+            width: 16.5%;
+            border: 1px solid black;    
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Table</h1>
+        <a href="index.html">Tables</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="calendar.html">Calendar</a>
+        
+        <table>
+            <!-- (tr>td*6)*6 -->
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td colspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td rowspan="3"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
