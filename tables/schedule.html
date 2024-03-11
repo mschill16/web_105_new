@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule</title>
+    <style>
+        .container{
+            width: 80%;
+            margin: 10px auto;
+        }
+        .class{
+            background: rgb(165, 251, 165);
+            color: black;
+            border: 2px solid green;
+            padding: 5px 10px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        tr{
+            height: 30px;
+        }
+        td{
+            width: 12.5%;
+            border: 1px solid black;    
+        }
+        th{
+            background: rgb(52, 209, 52);
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Schedule</h1>
+        <a href="index.html">Tables</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="calendar.html">Calendar</a>
+        
+        <table>
+            <!-- (tr>td*7)*10 -->
+            <tr>
+                <!-- th*7 -->
+                <th></th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <th>9:00am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>10:00am</th>
+                <td></td>
+                <td rowspan="2" class="class">Web Fundamentals</td>
+                <td></td>
+                <td rowspan="2" class="class">Web Fundamentals</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>11:00am</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>12:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>1:00pm</th>
+                <td></td>
+                <td></td>
+                <td rowspan="2" class="class">Graphic Design</td>
+                <td></td>
+                <td rowspan="2" class="class">Graphic Design</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>2:00pm</th>
+                <td></td>
+                <td rowspan="2" class="class">Painting</td>
+                <td></td>
+                <td rowspan="2" class="class">Painting</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>3:00 pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>4:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>5:00pm</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
