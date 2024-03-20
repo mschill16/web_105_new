@@ -27,6 +27,9 @@ div, header, footer, nav, main, aside{
 
 nav{
     text-align: center;
+    color:rgb(146, 44, 133);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 h2{
@@ -54,4 +57,32 @@ aside{
 
 footer{
     clear: both;
+    color:rgb(37, 107, 107);
+    font-size: small;
+    padding: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#p1{
+    font-weight: bold;
+    color:blueviolet;
+    padding: 30px;
+}
+
+#p2{
+    font-weight: bold;
+    color:rgb(71, 127, 55);
+    padding: 30px;
+}
+
+#p3{
+    font-weight: bold;
+    color:rgb(190, 88, 25);
+    padding: 30px;
+}
+
+header{
+    color:brown;
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
