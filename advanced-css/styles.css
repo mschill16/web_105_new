@@ -1,0 +1,37 @@
+body{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,184,2,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+#columns{
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#move{
+    background: gold;
+    width: 70px;
+    height: 70px;
+    transform: scale(5) rotate(720deg) translateX(100px) translateY(25px) skewX(10deg);
+}
+
+#shadow{
+    text-shadow: 3px 3px 3px #002AFF;
+}
+
+#outline{
+    outline: 30px groove #FF0080;
+    outline-offset: 0px;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#rgba{
+    background-color: rgba(60, 50, 80, 50);
+    color: white;
+}
