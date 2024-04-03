@@ -1,0 +1,119 @@
+/*
+
+primary-color: #44b14b
+secondary-color: #899d4c
+dark-text: #403340
+light-text: white
+
+Fonts
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid #44b14b;
+}
+
+img{
+    width: 40%;
+    margin: 15px auto;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 5px 10px;
+    color: white;
+    background: #899d4c;
+}
+h1,h2,h3,h4{
+    font-family: "Prata", serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+aside{
+    width: 40%;
+}
+
+figure{
+    padding: 5px;
+    border: thin #899d4c solid;
+    flex-flow: column;
+}
