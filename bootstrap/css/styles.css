@@ -201,6 +201,11 @@ p{
     border-color:antiquewhite;
 }
 
+mark{
+    background-color:#325a4a;
+    color: antiquewhite;
+}
+
 /*       Grid Layout      */
 
 
