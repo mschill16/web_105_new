@@ -206,6 +206,10 @@ mark{
     color: antiquewhite;
 }
 
+.text-primary{
+    color: rgb(247, 253, 206);
+}
+
 /*       Grid Layout      */
 
 
