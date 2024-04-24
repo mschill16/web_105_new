@@ -114,7 +114,6 @@ body{
     line-height: 2;
     background: #448069;
     color:antiquewhite;
-    padding: 5px 10px;
 }
 
 .container{
@@ -143,13 +142,14 @@ nav{
 nav a{
     padding: 5px 15px;
     color:antiquewhite;
-    background: #21382F;
+    background: #325a4a;
     margin: left 5px;
     border-radius: 12px;
-    border: 2px solid;
+    border: 2px solid antiquewhite;
     text-decoration: none;
     font-size:x-large; 
 }
+
 
 h2, h3, h4{
     font-family: "Prata", serif;
@@ -157,6 +157,7 @@ h2, h3, h4{
     margin: auto;
     text-align: center;
     padding: 40px;
+    font-size: x-large;
 }
 
 h1{
@@ -194,8 +195,9 @@ p{
     font-size: xx-large;
     font-weight: bold;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 65px;
 }
 
 .container.border{
@@ -208,7 +210,9 @@ mark{
     color: antiquewhite;
 }
 
-
+.bg-blue{
+    background-color: #78AB97;
+}
 
 /*       Grid Layout      */
 
