@@ -12,24 +12,25 @@
 </head>
 <main>
 <body>
+    <nav class="navbar navbar-expand-sm bg-blue navbar-dark fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="childhood-art.html">Childhood Art</a>
+        <a class="navbar-brand" href="custom-clothing.html">Custom Clothing</a>
+        <a class="navbar-brand" href="oil-painting.html">Oil Painting</a>
+        <a class="navbar-brand" href="misc-media.html">Misc. Media</a>
+        </div>
+    </nav>
     <div class="container-fluid masthead">
     <h1>My Art</h1>
     </div>
     <h2>Oil Painting</h2>
-    <nav>
-        <a href="index.html">Acrylic Painting</a>
-        <a href="childhood-art.html">Childhood Art</a>
-        <a href="custom-clothing.html">Custom Clothing</a>
-        <a href="#">Oil Painting</a>
-        <a href="misc-media.html">Misc. Media</a>
-    </nav>
-
     <div class="container">
         <div class="grid-container">
             <div>
                 <img src="images/album-covers.jpg" class="rounded-4"
                  alt="Album-Covers Painting"
-                 onclick='change("../images/album-covers.jpg")'>
+                 onclick='change("images/album-covers.jpg")'>
                 <figure>
                     <figcaption>17 Album Covers Painting, 2023</figcaption>
                 </figure>
@@ -37,7 +38,7 @@
             <div>
                 <img src="images/butterfly.jpg" class="rounded-4"
                 alt="Butterfly Painting"
-                onclick='change("../images/butterfly.jpg")'>
+                onclick='change("images/butterfly.jpg")'>
                 <figure>
                     <figcaption>Cropped Butterfly Painting, 2020</figcaption>
                 </figure>
@@ -45,7 +46,7 @@
             <div>
                 <img src="images/collage.jpg" class="rounded-4"
                 alt="Collage Painting"
-                onclick='change("../images/collage.jpg")'>
+                onclick='change("images/collage.jpg")'>
                 <figure>
                     <figcaption>Magazine Collage Painting, 2019</figcaption>
                 </figure>
@@ -53,7 +54,7 @@
             <div>
                 <img src="images/figure-painting.jpg" class="rounded-4"
                 alt="Figure-Painting"
-                onclick='change("../images/figure-painting.jpg")'>
+                onclick='change("images/figure-painting.jpg")'>
                 <figure>
                     <figcaption>Figure Study Painting, 2022</figcaption>
                 </figure>
@@ -61,7 +62,7 @@
             <div>
                 <img src="images/butterfly-2.jpg" class="rounded-4"
                 alt="Butterfly 2 Painting"
-                onclick='change("../images/butterfly-2.jpg")'>
+                onclick='change("images/butterfly-2.jpg")'>
                 <figure>
                     <figcaption>Painted-Lady Butterfly Painting, 2019</figcaption>
                 </figure>
@@ -69,7 +70,7 @@
             <div>
                 <img src="images/bike.jpg" class="rounded-4"
                  alt="Bike Painting"
-                 onclick='change("../images/bike.jpg")'>
+                 onclick='change("images/bike.jpg")'>
                  <figure>
                     <figcaption>Budva, Montenegro Bike Painting, 2023</figcaption>
                 </figure>
@@ -79,6 +80,8 @@
             <img src="images/album-covers.jpg"  id="large"> 
             <!-- img#large tab -->
     </div>
+    <script src="script.js"></script>
+
 <div class="border">
     <p>Oil paint is my favorite medium. I have only been working
     with it for 5 years. I have learned the origins of where
