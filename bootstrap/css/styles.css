@@ -110,11 +110,11 @@ table {
 
 body{
     font-family: "Red Hat Display", sans-serif;
-    font-size: x-large;
+    font-size: large;
     line-height: 2;
     background: #448069;
     color:antiquewhite;
-    padding: 90px;
+    padding: 5px 10px;
 }
 
 .container{
@@ -148,6 +148,7 @@ nav a{
     border-radius: 12px;
     border: 2px solid;
     text-decoration: none;
+    font-size:x-large; 
 }
 
 h2, h3, h4{
@@ -197,8 +198,9 @@ p{
     padding-bottom: 20px;
 }
 
-.border{
-    border-color:antiquewhite;
+.container.border{
+    color: antiquewhite;
+    padding: 10px;
 }
 
 mark{
@@ -206,11 +208,13 @@ mark{
     color: antiquewhite;
 }
 
+
+
 /*       Grid Layout      */
 
 
 .grid-container {
-    display: grid; /* this creates a grid layout */
+    display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     gap: 10px;
     background-color: antiquewhite;
@@ -234,10 +238,4 @@ mark{
     margin: 25px auto;
     padding: 20px;
     background: #78AB97;
-}
-
-#borderimg{
-    border: 10px solid transparent;
-    padding: 15px;
-    border-image: url(border.png) 50 round;
 }
