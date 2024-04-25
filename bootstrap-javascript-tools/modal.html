@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Features</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<h1>Bootstrap Javascript Tools</h1>
+<body>
+    <nav>
+        <a href="index.html">Collapse</a>
+        <a href="#">Modal</a>
+        <a href="vertical-nav-tooltip.html">Vertical Nav. & Tooltip</a>
+    </nav>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        My Art Story
+    </button>
+      
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">My Art Story</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              My journey started as a young kid. I grew up doing art with my grandma.
+              I stepped away for quite some time, but once my grandma passed away,
+              it kick started my art path again. I now do some form of art every single day.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    <img src="images/bench.jpg" alt="Bench Commission">
+    <img src="images/bike.jpg" alt="Bike Commission">
+    <img src="images/butterfly-2.jpg" alt="Butterfly Painting">
+    
+</body>
+</html>

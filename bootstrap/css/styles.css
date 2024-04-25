@@ -214,6 +214,10 @@ mark{
     background-color: #78AB97;
 }
 
+.btn.btn-primary{
+    float: left;
+    margin-top: 120px;
+}
 /*       Grid Layout      */
 
 
