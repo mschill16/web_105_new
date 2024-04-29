@@ -214,6 +214,31 @@ mark{
     background-color: #78AB97;
 }
 
+.btn.btn-primary{
+    background-color:#325a4a;
+    border-color: antiquewhite;
+}
+
+.collapse{
+    text-align: center;
+}
+
+#welcButton {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.justify-content-center{
+  margin: auto;
+}
+
+th{
+    font-weight: bold;
+}
 /*       Grid Layout      */
 
 
