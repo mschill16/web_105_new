@@ -14,19 +14,30 @@
 <main>
 <body>
     <nav class="navbar navbar-expand-sm bg-blue navbar-dark fixed-top">
-        
         <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Home</a>
         <a class="navbar-brand" href="childhood-art.html">Childhood Art</a>
         <a class="navbar-brand" href="custom-clothing.html">Custom Clothing</a>
         <a class="navbar-brand" href="oil-painting.html">Oil Painting</a>
         <a class="navbar-brand" href="misc-media.html">Misc. Media</a>
+        </ul>
     </div>
     </nav>
     <div class="container-fluid masthead">
     <h1>My Art</h1>
     </div>
     <h2>Acrylic Painting</h2>
+         <div id="welcButton">
+            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-toggle="tooltip" title="Click here!" data-bs-target="#demo">Welcome in!</button>
+        </div>
+
+        <br>
+        <div id="demo" class="collapse">
+          Welcome in to my art page! Here you will find artwork that I have created throughout the
+          years in different medium types. Enjoy!
+        </div>
+    </div>
+      
         <div class="container border">
         <div class="row">
         <div class="column">
@@ -46,8 +57,8 @@
                 of my life, but have really learned the medium within the past 
                 5 years. It dries very quickly which allows you to work fast.
                 I typically use acrylic paints for a wide variety of subjects.
-                This could include realism, abstraction, and other genres. The painting under the name of  <abbr title="Unknown"><mark>"Unknown"</mark></abbr> is one I made with no plan going into it.
-                I named it <mark>“Unknown”</mark> because I was not certain of how the
+                This could include realism, abstraction, and other genres. The painting under the name of  "Unknown" is one I made with no plan going into it.
+                I named it “Unknown” because I was not certain of how the
                 painted was going to end up. I added lots of layers and
                 different things until I was satisfied.
                 </p>
@@ -67,6 +78,59 @@
     </div>
     </div>
 </div>
+<div class="container mt-3">
+    <h2>Acrylic Painting Catalog</h2>        
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jerry Garcia Portrait</td>
+          <td>2024</td>
+          <td>Psychedlic colored Jerry Garcia singing and playing
+            guitar with Woodstock Festival newspaper clippings for
+            the background</td>
+        </tr>
+        <tr>
+          <td>Chance the Rapper Portrait</td>
+          <td>2023</td>
+          <td>Bright and playful capture of Chance the Rapper from a music video</td>
+        </tr>
+        <tr>
+          <td>Sunflower Bench Commission</td>
+          <td>2024</td>
+          <td>A commissioned memorial bench incorporating sunflowers,
+            butterflies, rainbows and vines</td>
+        </tr>
+        <tr>
+            <td>Unknown</td>
+            <td>2022</td>
+            <td>A personal acrylic piece with cool and warm tones
+            following a more modern abstract style with lines
+            and shapes</td>
+          </tr>
+          <tr>
+            <td>Abstract Figure Painting</td>
+            <td>2022</td>
+            <td>A graphic depiction of a female body surrounded
+                by varying circles of color</td>
+          </tr>
+          <tr>
+            <td>Suffocation Self-Portrait</td>
+            <td>2021</td>
+            <td>A self portrait that is surrounded by dark spheres
+                that are closing in on the face-- symbolic of stress,
+                fear, and anything in between</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+  
 </main>
 </body>
 <br>
@@ -74,5 +138,11 @@
     &copy; Morgan Schill 2024
 </footer>
 </div>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
 
 </html>
