@@ -140,7 +140,7 @@ nav{
 }
 
 nav a{
-    padding: 5px 15px;
+    padding: 10px 15px;
     color:antiquewhite;
     background: #325a4a;
     margin: left 5px;
@@ -148,6 +148,7 @@ nav a{
     border: 2px solid antiquewhite;
     text-decoration: none;
     font-size:x-large; 
+    justify-content: center;
 }
 
 
@@ -188,6 +189,45 @@ p{
     text-align: justify;
 }
 
+.navbar-expand-sm{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+#welcButton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-primary{
+    background-color:#325a4a;
+    border-color: antiquewhite;
+
+}
+
+.collapse{
+    justify-content: center;
+}
+
+#collapse{
+    justify-content: center;
+    display: flex;
+}
+
+dt{
+    font-weight: bold;
+}
+
+h5{
+    font-family: "Prata", serif;
+    font-weight: bold;
+    margin: auto;
+    font-size:x-large;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
 /*Bootstrap*/
 .masthead{
     background-color:#78AB97;
@@ -213,6 +253,26 @@ mark{
 .bg-blue{
     background-color: #78AB97;
 }
+
+
+th{
+    font-weight: bold;
+}
+
+/* Used the inspect tool on browser for styles reference*/
+.table>:not(caption)>*>*{
+    background-color:#85bfa8;
+}
+
+.table{
+    --bs-table-color: #203a2f;
+}
+
+.table-striped tbody tr td {
+    color:#203a2f; 
+  }
+
+
 
 /*       Grid Layout      */
 
