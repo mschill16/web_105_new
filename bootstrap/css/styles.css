@@ -99,6 +99,7 @@ table {
     max-width: 50%;
     padding: 0 20px;
     margin: 0 auto;
+    overflow: hidden;
   }
   
   .column img {
@@ -121,6 +122,8 @@ body{
     margin: 10px auto;
     padding: 15px;
     border: 2px solid #78AB97;
+    box-sizing: border-box;
+    max-width: 1600px;
 }
 
 img{
@@ -137,6 +140,8 @@ img{
 nav{
     text-align: center;
     padding: 25px;
+    line-height: 2.5;
+
 }
 
 nav a{
@@ -169,6 +174,7 @@ h1{
     font-size: 175%;
     margin: auto; 
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -184,7 +190,6 @@ figcaption{
 }
 
 p{
-    border: 5px solid;
     padding: 20px;
     text-align: justify;
 }
@@ -304,4 +309,28 @@ th{
     margin: 25px auto;
     padding: 20px;
     background: #78AB97;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .text {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .text {
+      font-size: 12px; /* Further adjust font size for even smaller screens */
+    }
+}
+
+ @media screen and (max-width: 600px) {
+        .text {
+          font-size: 12px; /* Further adjust font size for even smaller screens */
+        }
+  }
+  @media screen and (max-width: 100px) {
+    .text {
+      font-size: 10px; /* Further adjust font size for even smaller screens */
+    }
 }
