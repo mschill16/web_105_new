@@ -99,6 +99,7 @@ table {
     max-width: 50%;
     padding: 0 20px;
     margin: 0 auto;
+    overflow: hidden;
   }
   
   .column img {
@@ -121,6 +122,8 @@ body{
     margin: 10px auto;
     padding: 15px;
     border: 2px solid #78AB97;
+    box-sizing: border-box;
+    max-width: 1600px;
 }
 
 img{
@@ -137,10 +140,12 @@ img{
 nav{
     text-align: center;
     padding: 25px;
+    line-height: 2.5;
+
 }
 
 nav a{
-    padding: 5px 15px;
+    padding: 10px 15px;
     color:antiquewhite;
     background: #325a4a;
     margin: left 5px;
@@ -148,6 +153,7 @@ nav a{
     border: 2px solid antiquewhite;
     text-decoration: none;
     font-size:x-large; 
+    justify-content: center;
 }
 
 
@@ -168,6 +174,7 @@ h1{
     font-size: 175%;
     margin: auto; 
     text-align: center;
+    margin-top: 20px;
 
 }
 
@@ -183,9 +190,49 @@ figcaption{
 }
 
 p{
-    border: 5px solid;
     padding: 20px;
     text-align: justify;
+}
+
+.navbar-expand-sm{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+#welcButton{
+    display: flex;
+    justify-content: center;
+}
+
+.btn.btn-primary{
+    background-color:#325a4a;
+    border-color: antiquewhite;
+
+}
+
+.collapse{
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#collapse{
+    justify-content: center;
+    display: flex;
+}
+
+dt{
+    font-weight: bold;
+}
+
+h5{
+    font-family: "Prata", serif;
+    font-weight: bold;
+    margin: auto;
+    font-size:x-large;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 /*Bootstrap*/
@@ -213,6 +260,26 @@ mark{
 .bg-blue{
     background-color: #78AB97;
 }
+
+
+th{
+    font-weight: bold;
+}
+
+/* Used the inspect tool on browser for styles reference*/
+.table>:not(caption)>*>*{
+    background-color:#85bfa8;
+}
+
+.table{
+    --bs-table-color: #203a2f;
+}
+
+.table-striped tbody tr td {
+    color:#203a2f; 
+  }
+
+
 
 /*       Grid Layout      */
 
@@ -242,4 +309,28 @@ mark{
     margin: 25px auto;
     padding: 20px;
     background: #78AB97;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .text {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .text {
+      font-size: 12px; /* Further adjust font size for even smaller screens */
+    }
+}
+
+ @media screen and (max-width: 600px) {
+        .text {
+          font-size: 12px; /* Further adjust font size for even smaller screens */
+        }
+  }
+  @media screen and (max-width: 100px) {
+    .text {
+      font-size: 10px; /* Further adjust font size for even smaller screens */
+    }
 }
